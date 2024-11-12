@@ -5,7 +5,7 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v2.3.1 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of LaunchAtLoginHelper and imports it into Munki.</string>
+	<string>Downloads the latest version of Jellyfish Connect and imports it into Munki.</string>
 	<key>Identifier</key>
 	<string>com.github.wu-wenqing.munki.LaunchAtLoginHelper</string>
 	<key>Input</key>
@@ -13,12 +13,13 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>LaunchAtLoginHelper</string>
+		<string>Jellyfish Connect</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>blocking_applications</key>
 			<array>
-				<string>LaunchAtLoginHelper.app</string>
+				<string>Jellyfish Connect.app</string>
+				<string>Share Client Launcher.app</string>
 			</array>
 			<key>catalogs</key>
 			<array>
@@ -29,7 +30,7 @@
 			<key>developer</key>
 			<string>Other World Computing</string>
 			<key>display_name</key>
-			<string>LaunchAtLoginHelper</string>
+			<string>Jellyfish Connect</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
