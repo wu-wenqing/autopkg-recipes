@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Jellyfish Connect.</string>
 	<key>Identifier</key>
-	<string>com.github.wu-wenqing.download.LaunchAtLoginHelper</string>
+	<string>com.github.wu-wenqing.download.JellyfishConnect</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
